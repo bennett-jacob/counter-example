@@ -41,6 +41,7 @@ def prepoc(xo: [str]) -> [str]:
         # "This is a sentence" -> ["This", "is", "a", "sentence"]
 
         for tword in tstr:
+            # only inlude words we want
             if len(tword) > 1:
                 # this removes non-alphanumeric characters from string
                 # https://stackoverflow.com/a/1276774/5623385
